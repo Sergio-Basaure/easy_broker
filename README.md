@@ -1,7 +1,7 @@
 # easy_broker
 Repositorio para prueba técnica de la empresa Easy Broker
 
-Pasos para ejecutar el proyecto.
+# Pasos para ejecutar el proyecto.
 
 El proyecto a continuación se desarrollo con el lenguaje de programación Python y su framework Django.
 Para poder ejecutar el proyecto se deben seguir los siguientes pasos:
@@ -20,3 +20,5 @@ Window:
 	Pip install requirement.txt
 8.- Una vez con finalizada la instalación nos movemos a la carpeta del proyecto y podemos iniciar el proyecto con el siguiente comando:
 	Py manage.py runserver.
+
+    
