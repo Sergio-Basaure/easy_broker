@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'propertie/base.css' %}">
+    {% block linkcss %}{% endblock linkcss %}
+        
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<header class="header">
+    <nav class="header-nav">
+        <div class="header-img">
+            <img src="{% static 'images/logo.png' %}" alt="Easy Broker logo">
+        </div>
+        <div class="header-title">
+            <h3>Prueba Tecnica Easy Broker</h3>
+        </div>
+    </nav>
+</header>
+<body>
+    {% block header %}
+    {% endblock header %}
+    
+    {% block content %}
+    {% endblock content %}
+
+
+    
+
+</body>
+{% block js %}{% endblock js %}
+</html>

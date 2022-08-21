@@ -1,0 +1,39 @@
+{% extends 'propertie/base.html' %}
+{% load static %}
+{% block linkcss %}<link rel="stylesheet" href="{% static 'propertie/index.css' %}">{% endblock linkcss %}
+
+{% block title %}
+    Home
+{% endblock title %}
+
+{% block content %}
+<section class="properties">
+    {% for propertie in properties %}
+        <article class="card-properties">
+            <a href="{% url 'propertie:detail_propertie' propertie.public_id %}">
+            <div class="card-properties-img">
+                <img src="{{ propertie.title_image_thumb }}" alt="">
+            </div>
+            <div>
+                <h4 class="card-properties-title">{{ propertie.title}}</4h>
+            </div>
+            <div class="card-properties-description">
+                <p><strong>Tipo de propiedad: </strong>{{ propertie.property_type }}</p>
+                <p><strong>Dirección: </strong>{{ propertie.location }}</p>
+                <span class="card-propertie-span">Id publicación {{ propertie.public_id }}</span>
+            </div>
+            </a>
+        </article>
+    {% endfor %}
+</section>
+
+<section>
+    
+    {% for pag in pagination %}
+        {{ pag }}
+    {% endfor %}
+        
+</section>
+
+{% endblock content %}
+    

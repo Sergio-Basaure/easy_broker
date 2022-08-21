@@ -1,0 +1,49 @@
+
+.properties {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+
+    justify-content: center;
+    gap: 30px
+}
+
+.card-properties {
+    height: 350px;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+.card-properties:hover{
+    height: 360px;
+    width: 210px;
+    box-shadow: 10px 10px 10px rgb(110, 99, 233);
+}
+.card-properties a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.card-properties-img {
+    height: 150px;
+    width: 200px;
+    object-fit: center;
+}
+
+.card-properties-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-properties-description {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.card-propertie-span{
+    font-size: 10px;
+    color: gray;
+    align-content: flex-end;
+}

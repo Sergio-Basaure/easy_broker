@@ -1,0 +1,53 @@
+{% extends 'propertie/base.html' %}
+{% load static %}
+{% block linkcss %}<link rel="stylesheet" href="{% static 'propertie/detail_propertie.css' %}">{% endblock linkcss %}
+{% block title %}
+    Detalle
+{% endblock title %}
+
+
+
+{% block content %}
+    
+<section class="detail">
+    {% for img in propertie.property_images %}
+        <div class="detail-propertie-img fade">
+            
+            <img  src="{{ img.url }}" alt="">
+            
+        </div>
+        {% endfor %}
+        <article class="detail-info">
+            <h3 class="detail-info-title">{{ propertie.title }}</h3>
+            <div class="detail-info-subtitle">
+                <p><strong>Description </strong>{{ propertie.description }}</p>
+                <p><strong>Property type </strong>{{ propertie.property_type }}
+                <p><strong>Location </strong>{{ propertie.location.name }}</p>
+                <span>Public ID {{ propertie.public_id }}</span>
+                
+            </div>
+            <button id="contacto" class="btn">Contactar</button>
+        </article>
+</section> 
+
+<section id="modal" class="modal-form">
+    <div class="modal-form-content">
+        <div class="modal-form-header">
+          <span class="close">x</span>
+          <h2>Contacto</h2>
+        </div>
+        <div class="modal-form-body">
+            <form action="" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="text" hidden="true">
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+      </div>
+
+</section>
+
+{% endblock content %}
+
+{% block js %}<script src="{% static 'propertie/detail_propertie.js' %}"></script>{% endblock js %}
