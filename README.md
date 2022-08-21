@@ -14,8 +14,7 @@ Para poder ejecutar el proyecto se deben seguir los siguientes pasos:
 5.- Una vez con el entrono virtual de desarrollo creado debemos acceder a el desde la terminal con el siguiente script
 Window:
 	venv\Scripts\activate
-6.- Descargar el proyecto desde el repositorio de github, en siguiente enlace:
-	'https://github.com/Sergio-Basaure/easy_broker.git'
+6.- Descargar o clonar el proyecto desde el repositorio de github
 7.- Instalar dependencias o librerías necesarias con el comando pip y el archivo requirement.txt:
 	Pip install requirement.txt
 8.- Una vez con finalizada la instalación nos movemos a la carpeta del proyecto y podemos iniciar el proyecto con el siguiente comando:
