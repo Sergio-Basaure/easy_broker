@@ -37,11 +37,11 @@ Window:
 # Imagenes de la aplicación.
 
 ###### Pagina de inicio
-[![inicio.png](https://i.postimg.cc/6QNSNJtJ/inicio.png)](https://postimg.cc/ts2Dhcs2)
+[![inicio.png](https://i.postimg.cc/J7ZCvqbk/inicio.png)](https://postimg.cc/3W8qD2f8)
 
 ###### Detalle de la propiedad
-[![detalle-propiedad.png](https://i.postimg.cc/y6w2TSt8/detalle-propiedad.png)](https://postimg.cc/Wtw9NtsB)
+[![detalle-propiedad.png](https://i.postimg.cc/T3HspLVx/detalle-propiedad.png)](https://postimg.cc/68ncPQbb)
 
 ###### Formulario
-[![formulario.png](https://i.postimg.cc/0Ny8qw8q/formulario.png)](https://postimg.cc/LJGdthYy)
+[![formulario.png](https://i.postimg.cc/zfsPFs2P/formulario.png)](https://postimg.cc/mcSwb5sQ)
 
