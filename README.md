@@ -36,3 +36,12 @@ Window:
 
 # Imagenes de la aplicación.
 
+###### Pagina de inicio
+[![inicio.png](https://i.postimg.cc/6QNSNJtJ/inicio.png)](https://postimg.cc/ts2Dhcs2)
+
+###### Detalle de la propiedad
+[![detalle-propiedad.png](https://i.postimg.cc/y6w2TSt8/detalle-propiedad.png)](https://postimg.cc/Wtw9NtsB)
+
+###### Formulario
+[![formulario.png](https://i.postimg.cc/0Ny8qw8q/formulario.png)](https://postimg.cc/LJGdthYy)
+
