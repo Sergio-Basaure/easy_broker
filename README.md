@@ -15,10 +15,9 @@ Para poder ejecutar el proyecto se deben seguir los siguientes pasos:
 Window:
 	venv\Scripts\activate
 6.- Descargar el proyecto desde el repositorio de github, en siguiente enlace:
-	https://github.com/Sergio-Basaure/easy_broker.git
+	'https://github.com/Sergio-Basaure/easy_broker.git'
 7.- Instalar dependencias o librerías necesarias con el comando pip y el archivo requirement.txt:
 	Pip install requirement.txt
 8.- Una vez con finalizada la instalación nos movemos a la carpeta del proyecto y podemos iniciar el proyecto con el siguiente comando:
 	Py manage.py runserver.
 
-    
