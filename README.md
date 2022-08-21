@@ -45,3 +45,16 @@ Window:
 ###### Formulario
 [![formulario.png](https://i.postimg.cc/zfsPFs2P/formulario.png)](https://postimg.cc/mcSwb5sQ)
 
+
+## Notas
+
+###### ¿Qué fue lo más difícil que tuviste que resolver mientras creabas el sitio web?
+ Lo más difícil que tuve que resolver mientras creaba el proyecto fueron los estilos de la app (como todo amante del back end)
+
+###### ¿Hay áreas de su código que cree que no están tan "limpias"?
+Los archivos css, me estoy amoldando al displey grid
+
+###### ¿qué pudo completar y estuvo satisfecho con su progreso dadas las limitaciones de tiempo?
+Estoy satisfecho con lo logrado, aunque siempre es bueno mejorar, me quedo pendiente la paginación y la petición de contacto.
+Me comprometo en tenerlo listo, para la próxima iteración.
+
