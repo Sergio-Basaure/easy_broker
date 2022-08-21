@@ -1,4 +1,7 @@
 # easy_broker
+
+![Easy Broker](https://github.com/Sergio-Basaure/easy_broker/blob/master/propertie/static/images/logo.png)
+
 Repositorio para prueba técnica de la empresa Easy Broker
 
 # Pasos para ejecutar el proyecto.
