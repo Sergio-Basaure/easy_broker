@@ -31,3 +31,5 @@ Window:
 
 	Py manage.py runserver.
 
+# Imagenes de la aplicación.
+
